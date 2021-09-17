@@ -1,0 +1,15 @@
+## Experiment 1: Create the Application Project
+
+1.	File -> New -> Application Project -> New Project -> Project Name -> flash_mac_app -> BSP   -> Create New -> flash_mac_app_bsp -> Next -> Empty Application -> Finish.
+2.	Click on the Modify this BSP’s Setting to configure flash_mac_app_bsp.
+3.	Enable Xilinx In system and Serial Flash Library by selecting checkboxes.
+4.	In BSP setting -> Overview -> standalone -> xilisf -> Micron QSPI flash -> for serial_flash_family, 5 for seral_flash_interface, 3, -> change to stdin and stdout.
+5.	Right click flash_mac_app -> src -> import -> general -> file system -> next-> browse -> /home/training/AvnetTTC/ZynqSW/2017_4/Support_documents/flash_mac_app/ -> OK -> select 18 files -> Import.
+
+## Experiment 2: Exploring the Application
+
+1.	Reser on MiniZed, boot mode to JTAG mode, connect JTAG.
+2.	Xilinx tools -> Program FPGA -> program.
+3.	Project Explorer -> Run As -> Launch on Hardware.
+4.	Help on Terminal -> mac help -> use the command to read and display QSPI Flash.
+5.	Flash_mac_app -> src -> flash_mac.c.
