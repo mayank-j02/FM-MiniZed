@@ -1,0 +1,21 @@
+## Experiment 1: Create a Complete SDK Project Archive
+
+1.	File -> Export -> General -> Archive File -> Next -> ‘Select all check boxes’ -> Select All -> Browse -> “Lab08_project_export.zip” in ZynqSW\2019_1 -> Save -> Finish.
+2.	File -> Export -> Run/Debug -> Launch Configurations -> Next -> Select All -> browse to /home/training/AvnetTTC/ZynqSW/2017_4/ -> Make New Folder -> name it Lab_08_config_export -> OK -> Finish.
+3.	File -> Export -> Run/Debug -> Breakpoints -> Next -> Select All -> browse to /home/training/AvnetTTc/ZynqSW/2019_1/ -> name it Lab_08_breakpoint_export.bkpt -> Save -> Finish.
+4.	Create a new folder in /home/training/AvnetTTC/ZynqSW/2019_1 directory.
+5.	Browse to File Explorer from workspace to .metadata\.plugins\org.eclipse.core.runtime\.settings make a copy of the files in this folder and copy them to Lab08_repositores_export.
+
+## Experiment 2: Import a Shared Project Archive
+
+1.	File -> Switch Workspace -> Other -> name it New_Workspace -> OK.
+2.	File -> Import -> General -> Existing Projects into Workspace -> Next.
+3.	Select the button Select archive file and open Lab08_project_export.zip -> Select All -> Finish.
+4.	File -> Import -> Run/Debug -> Launch Configurations -> Next.
+5.	Browse to /home/trainig/AvnetTTC/ZynqSW/2019_1/Lab08_config_export -> OK -> Select Lab08_config_export -> Finish.
+6.	File -> Import -> Run/Debug -> Breakpoints -> Next -> browse to /home/training/AvnetTTC/ZynqSW/2017_4/ -> Select Lab08_breakpoint_export.bkpt -> Open -> Finish.
+7.	Copy files from Lab08_repositories_export folder and paste in .metadata\.plugins\org.eclipse.core.runtime\.settings.
+8.	Open SDK again.
+9.	Set your board to Cascaded JTAG MODE.
+10.	Connect the USB-UART-JTAG (J2).
+11.	Download PL Bitstream and Hello_Zynq to test.
