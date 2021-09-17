@@ -5,24 +5,24 @@ There are a total of 12 videos in this course and there are 11 labs.
 
 **Detailed steps of each lab is written in the respective files.**
 
-## 1. LAB 1
+### 1. LAB 1
 
-## 2. LAB 2
+### 2. LAB 2
 
-## 3. LAB 3
+### 3. LAB 3
 
-## 4. LAB 4
+### 4. LAB 4
 
-## 5. LAB 5
+### 5. LAB 5
 
-## 6. LAB 6
+### 6. LAB 6
 
-## 7. LAB 7
+### 7. LAB 7
 
-## 8. LAB 8
+### 8. LAB 8
 
-## 9. LAB 9
+### 9. LAB 9
 
-## 10. LAB 10
+### 10. LAB 10
 
-## 11. LAB 11
+### 11. LAB 11
