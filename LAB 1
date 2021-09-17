@@ -1,6 +1,3 @@
-## Objective of Lab 1
-The objective of lab 1 is to introduce us to what file is included in a Zynq hardware platform archive and what the file contains
-
 ### Experiment 1: Review the Hardware Platform Archive
 
 1. By the help of lab1 we can find the exported Zynq hardware Platform within Vivado project directory str.
