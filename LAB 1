@@ -1,1 +1,8 @@
+## Objective of Lab 1
+The objective of lab 1 is to introduce us to what file is included in a Zynq hardware platform archive and what the file contains
 
+### Experiment 1: Review the Hardware Platform Archive
+
+1. By the help of lab1 we can find the exported Zynq hardware Platform within Vivado project directory str.
+2. Following the steps of the lab 1 we can find the folder where the Vivado project writes the hardware platform by default.
+3. All the contents can be found in a single .hdf file, this is a compressed file that contains the. Information to develop software applications within SDK.
