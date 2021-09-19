@@ -12,7 +12,7 @@ Detailed steps of each lab is written in the respective files.
 4.	Choose RTL-based project as your project type and click Next
 5.	Select Vivado as Target Language and click Next for the next 2 times.
 6.	To choose target device choose the following options to work on MiniZed : - 
-⋅⋅⋅ Product category: General Purpose ~~ Family:  Zynq-7000 ~~ Package: clg225 (MiniZed) ~~ Speed grade -1 ~~ Temp grade: Leave empty ~~ select the xc7z007sclg225-1
+    Product category: General Purpose ~~ Family:  Zynq-7000 ~~ Package: clg225 (MiniZed) ~~ Speed grade -1 ~~ Temp grade: Leave empty ~~ select the xc7z007sclg225-1
 7.	Click Next and then Finish.
 
 ## Create Block Design
@@ -22,12 +22,12 @@ Detailed steps of each lab is written in the respective files.
 4.	Run block Automation (This is done to perform the tasks on the processor’s core)
 5.	Click on Ok in the pop up window after checking Cross Trigger In & out as Disable. (This is done to connect external devices.
 
-⋅⋅⋅ Note: Save your progress when any changes are made so as to not lose progress.
+    Note: Save your progress when any changes are made so as to not lose progress.
 
 ## Enabling Specific Peripherals
 1.	To configure the PS, Double click on the IP block allowing you to customize the PS features.
 2.	Note: a ✓ along the blocks shows if they are enabled or not.
-⋅⋅⋅ To configure a peripheral, click on the peripheral or go to MIO config on the Page navigator panel to the left.
+    To configure a peripheral, click on the peripheral or go to MIO config on the Page navigator panel to the left.
 3.	In the config window, set Bank 0 &1 I/O voltage as LVCMDS 3.3V if using a MiniZed Board.
 4.	Listed below are the peripherals, and select the specific one that you require by selecting the check box.
 5.	You can verify your selection in the block design with a ✓.
