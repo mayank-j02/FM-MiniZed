@@ -15,11 +15,11 @@ There are a total of 12 videos in this course and there are 11 labs.
 ### 2. LAB 2
 
 #### Creating a hardware platform 
-1: File → new → other
-2: Select hardware platform specification under the xillinx tab
-3: Specify project name   
-4: Add the location of the Z_system_wrapper.hdf file in the target hardware specification text box
-5: Click finish 
+1. File → new → other
+2. Select hardware platform specification under the xillinx tab
+3. Specify project name   
+4. Add the location of the Z_system_wrapper.hdf file in the target hardware specification text box
+5. Click finish 
    A folder with the project name should be visible in the project explorer tab
    
 #### Experiment 2: Examine the Hardware Platform
