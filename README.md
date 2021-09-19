@@ -7,9 +7,57 @@ There are a total of 12 videos in this course and there are 11 labs.
 
 ### 1. LAB 1
 
+#### Experiment 1: Review the Hardware Platform Archive
+1.	By the help of lab1 we can find the exported Zynq hardware Platform within Vivado project directory str.
+2.	Following the steps of the lab 1 we can find the folder where the Vivado project writes the hardware platform by default.
+3.	All the contents can be found in a single .hdf file, this is a compressed file that contains the. Information to develop software applications within SDK.
+
 ### 2. LAB 2
 
+#### Creating a hardware platform 
+1: File → new → other
+2: Select hardware platform specification under the xillinx tab
+3: Specify project name   
+4: Add the location of the Z_system_wrapper.hdf file in the target hardware specification text box
+5: Click finish 
+   A folder with the project name should be visible in the project explorer tab
+   
+#### Experiment 2: Examine the Hardware Platform
+1.	The ZynqHW hardware platform is visible in project structure in the system.hdf file. 
+2.	There are two sections for the hardware organized sections. 
+3.	In the system.hdf file there is IP blocks present, in design there is IP number which represents the name of the IP design. 
+4.	In second column there is the name of the IP.
+5.	Name of IP is more relevant.
+6.	IP helps for the hardware person.
+
 ### 3. LAB 3
+
+#### Creating a BSP( Board Support package) file 
+1. File → new → Board Support Package
+2. Select the hardware platform for which u want to create a support package
+3. Click finish
+4. The bsp package setup will open navigate to the standalone tab under the overview file
+5. Change the value of stdin and stdout from ps7_uart_0 to ps7_uart_1
+6. Click ok 
+7. All the necessary drivers would be added to ur program file under the bsp documentation tab
+
+#### Experiment 2: Explore the BSP
+1.	We can open the BSP report by clicking system.mss file. 
+2.	The generic written in red color indicates that there is no defined driver present. 
+3.	Whereas blue means there is a specific driver.
+4.	By clicking in the hyperlink for standalone_v6_5, we can open the cortex A9 processor API.
+5.	There is each hardware peripheral listed along with the driver associated with that peripheral, by clicking on the documentation we can view the datasheet for the driver.
+6.	By clicking on Import examples link next to GPIOPS, a window pops and selecting xspiops_olled_example and clicking on OK we can import a polled example in the workspace.
+
+#### Experiment 3: Library Generator (LibGen)
+1.	Library generator was the one that assembled BSP. 
+2.	Expanding BSP documentation it shows the link for each peripheral driver.
+3.	Expand ps_7_cortexa_9_0 and there will be 4 sub folders. 
+4.	The code directory is a repo for SDK executables. 
+5.	There is a include folder wich contains C header file which are needed by drivers to run. 
+6.	Lib folder contains driver function that a particular processor can access.
+7.	Libsrc folder contains intermediate files and make files needed to compile Oss, lib, drivers.
+8.	It also contains files to run BSP OS, peripheral specific driver file and more.
 
 ### 4. LAB 4
 
